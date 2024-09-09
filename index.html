@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chococat's Formatter</title>
+</head>
+<script type="text/javascript" src='/eel.js'></script>
+<script type="text/javascript" src='main.js'></script>
+eel.expose(testFunction());
+<script type="text/javascript">
+  function fileToFormat() {
+    eel.inputOfFile(self)(r => console.log(r));
+  };
+</script>
+<body>
+    <h1>Hello! Welcome to Chococat's formatter.</h1>
+    <div id="container1">
+    <img id="firstimg" src='./static/chococat0.jpg'/>
+  </div>
+    <h4 id="uploadthis">Upload your webscraped data below!</h4>
+    <button type = "button" onclick="fileToFormat()"></button>
+    <input type="file" id="userinput">
+      <h4 id="resultplace">The results</h4>
+      <p class="results"></p>
+</body>
+</html>

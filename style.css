@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    background-color: skyblue;
+    font-family: 'Lexend', 'sans-serif';
+}
+
+/* first image & container */
+#container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#firstimg {
+    width: 25%;
+    height: 25%;
+    
+}
+
+/* h4 header above upload */
+#uploadthis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* download button */ 
+input[type = file] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
